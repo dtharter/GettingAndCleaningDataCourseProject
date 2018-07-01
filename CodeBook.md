@@ -30,7 +30,7 @@ External files pulled from fileURL (above) wereloaded into R as the following da
 - activity_labels.txt -> loaded as data frame "activityNames"
 
 ## Data Manipulation
-Data frames created by binding rows of training and test data frames:
+- Data frames created by binding rows of training and test data frames:
 ```
 features <- rbind(Xtrain, Xtest)
 subject <- rbind(subtrain, subtest)
